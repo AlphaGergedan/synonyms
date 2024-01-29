@@ -1,3 +1,27 @@
+# Project Structure
+
+```
+.
+├── data
+│   ├── english_words.csv (word-text dataset)
+│   └── ...
+│
+├── models
+│   ├── cc.en.300.bin (fasttext) 
+│   └── ...
+│
+├── fastext.ipynb (embedding creation)
+│ 
+├── src
+│   ├── plot.py
+│   ├── preprocess.py
+│   └── utils.py
+│ 
+├── environment.yml│
+└── README.md (me)
+```
+
+
 DISTANCE-BASED:
 - K-means: distance based, look at heuristics for choosing K (elbow, gap statistic, silhouette and do not forget cross validation)
 
