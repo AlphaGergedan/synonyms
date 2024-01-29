@@ -24,6 +24,9 @@ def get_file_path(file_name, subfolder):
     return file_path
 
 def convert_string_to_float_array(df, column_name):
+    """
+    Use case: string stored float values can be transformed
+    """
     # returns numpy array of floats given dataframe and column name
     str_list = df.loc[:,column_name]
     # replace characters between digits with commas
